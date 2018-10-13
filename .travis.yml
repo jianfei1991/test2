@@ -6,4 +6,4 @@ after_script:
 before_install:
 - ls
 - openssl aes-256-cbc -K $encrypted_429b1cf1584d_key -iv $encrypted_429b1cf1584d_iv
-  -in travis_rsa.enc -out ~\/.ssh/travis_rsa -d
+  -in travis_rsa.enc -out ~/.ssh/travis_rsa -d
